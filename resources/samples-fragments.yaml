@@ -2,6 +2,8 @@
 apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Fragment
 metadata:
+  labels:
+    accelerator.apps.tanzu.vmware.com/category: samples
   name: java-version
 spec:
   displayName: Select Java Version

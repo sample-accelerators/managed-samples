@@ -2,6 +2,8 @@
 apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
+  labels:
+    accelerator.apps.tanzu.vmware.com/category: samples
   name: weatherforecast-steeltoe
 spec:
   git:
@@ -13,6 +15,8 @@ spec:
 apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
+  labels:
+    accelerator.apps.tanzu.vmware.com/category: samples
   name: weatherforecast-csharp
 spec:
   git:
@@ -24,6 +28,8 @@ spec:
 apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
+  labels:
+    accelerator.apps.tanzu.vmware.com/category: samples
   name: weatherforecast-fsharp
 spec:
   git:

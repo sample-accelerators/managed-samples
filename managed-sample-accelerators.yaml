@@ -1,6 +1,8 @@
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
+  labels:
+    accelerator.apps.tanzu.vmware.com/category: samples
   name: managed-sample-accelerators
 spec:
   serviceAccountName: accelerator-managed-resources
