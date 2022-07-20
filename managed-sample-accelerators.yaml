@@ -1,7 +1,7 @@
 apiVersion: kappctrl.k14s.io/v1alpha1
 kind: App
 metadata:
-  name: managed-samples
+  name: managed-sample-accelerators
 spec:
   serviceAccountName: accelerator-managed-resources
 
