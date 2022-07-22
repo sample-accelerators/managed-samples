@@ -3,7 +3,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: hello-world
 spec:
   git:
@@ -16,7 +16,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: hello-fun
 spec:
   git:
@@ -28,7 +28,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: spring-petclinic
 spec:
   git:
@@ -42,7 +42,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: spring-sql-jpa
 spec:
   git:
@@ -55,7 +55,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: tanzu-java-web-app
 spec:
   git:
@@ -68,7 +68,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: spring-sensors-rabbit
 spec:
   git:
@@ -81,7 +81,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   labels:
-    accelerator.apps.tanzu.vmware.com/category: samples
+    accelerator.apps.tanzu.vmware.com/category: java-samples
   name: appsso-starter-java
 spec:
   git:
